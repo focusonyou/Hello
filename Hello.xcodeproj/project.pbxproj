@@ -14,6 +14,7 @@
 		6976622419DEACB200B12780 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6976622319DEACB200B12780 /* Images.xcassets */; };
 		6976622719DEACB200B12780 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6976622519DEACB200B12780 /* LaunchScreen.xib */; };
 		6976623319DEACB200B12780 /* HelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6976623219DEACB200B12780 /* HelloTests.m */; };
+		69C6DC7719DEAF3A000C0380 /* HelloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C6DC7619DEAF3A000C0380 /* HelloViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6976622C19DEACB200B12780 /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6976623119DEACB200B12780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6976623219DEACB200B12780 /* HelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTests.m; sourceTree = "<group>"; };
+		69C6DC7519DEAF3A000C0380 /* HelloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloViewController.h; sourceTree = "<group>"; };
+		69C6DC7619DEAF3A000C0380 /* HelloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				6976622319DEACB200B12780 /* Images.xcassets */,
 				6976622519DEACB200B12780 /* LaunchScreen.xib */,
 				6976621619DEACB200B12780 /* Supporting Files */,
+				69C6DC7519DEAF3A000C0380 /* HelloViewController.h */,
+				69C6DC7619DEAF3A000C0380 /* HelloViewController.m */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				6976621F19DEACB200B12780 /* ViewController.m in Sources */,
 				6976621C19DEACB200B12780 /* AppDelegate.m in Sources */,
 				6976621919DEACB200B12780 /* main.m in Sources */,
+				69C6DC7719DEAF3A000C0380 /* HelloViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 				6976623819DEACB200B12780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6976623919DEACB200B12780 /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				6976623B19DEACB200B12780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
